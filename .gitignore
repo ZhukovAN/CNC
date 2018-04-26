@@ -20,3 +20,5 @@
 *.s##
 
 *.~$lock
+
+EAGLE/Power\.Board/Power\.Board\.pdf
