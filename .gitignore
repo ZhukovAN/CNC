@@ -22,3 +22,11 @@
 *.~$lock
 
 EAGLE/Power\.Board/Power\.Board\.pdf
+
+*.b#5
+
+*.b#6
+
+*.s#5
+
+*.s#6
