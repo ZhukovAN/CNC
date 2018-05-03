@@ -192,6 +192,29 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
 <rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
 </package>
+<package name="CHIPLED_1206">
+<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
+Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
+<wire x1="-0.4" y1="1.6" x2="0.4" y2="1.6" width="0.1016" layer="51" curve="172.619069"/>
+<wire x1="-0.8" y1="-0.95" x2="-0.8" y2="0.95" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="0.95" x2="0.8" y2="-0.95" width="0.1016" layer="51"/>
+<circle x="-0.55" y="1.425" radius="0.1" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="1.75" dx="1.5" dy="1.5" layer="1"/>
+<smd name="A" x="0" y="-1.75" dx="1.5" dy="1.5" layer="1"/>
+<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.85" y1="1.525" x2="-0.35" y2="1.65" layer="51"/>
+<rectangle x1="-0.85" y1="1.225" x2="-0.625" y2="1.55" layer="51"/>
+<rectangle x1="-0.45" y1="1.225" x2="-0.325" y2="1.45" layer="51"/>
+<rectangle x1="-0.65" y1="1.225" x2="-0.225" y2="1.35" layer="51"/>
+<rectangle x1="0.35" y1="1.3" x2="0.85" y2="1.65" layer="51"/>
+<rectangle x1="0.25" y1="1.225" x2="0.85" y2="1.35" layer="51"/>
+<rectangle x1="-0.85" y1="0.95" x2="0.85" y2="1.25" layer="51"/>
+<rectangle x1="-0.85" y1="-1.65" x2="0.85" y2="-0.95" layer="51"/>
+<rectangle x1="-0.85" y1="0.35" x2="-0.525" y2="0.775" layer="21"/>
+<rectangle x1="0.525" y1="0.35" x2="0.85" y2="0.775" layer="21"/>
+<rectangle x1="-0.175" y1="0" x2="0.175" y2="0.35" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="rcl">
@@ -1893,6 +1916,68 @@ Based on the previous libraries:
 </package>
 </packages>
 </library>
+<library name="con-molex-micro-fit-3_0">
+<description>&lt;b&gt;Molex  Micro-Fit 3.0TM Interconnect System&lt;/b&gt;
+&lt;p&gt;The Micro-Fit 3.0 is a unique interconnect system designed to meet the need for a high contact density signal or power connector and incorporates many of the features previously found on larger power connectors. These 3.00mm (.118") pitch connectors are the perfect choice when you need compact connectors that carry up to 5 amperes of current. Micro-Fit products are available in circuit sizes 2 to 24 for single and dual row, wire-to-board and wire-to-wire applications. The product family has over 500 part numbers, with many retention choices including fitting nails, solderable clips, and offset terminal retention.
+
+&lt;p&gt;The Micro-Fit 3.0 CPI? and Micro-Fit 3.0 BMI? CPI are compliant pin interface vertical header product extensions to this well known Micro-Fit family. These products are designed for high-density applications which require press-fit headers. The CPI products are appropriate for both power and signal uses as they can carry up to 5 amperes per circuit.
+
+&lt;p&gt;Micro-Fit 3.0 Overmolded Cable Assemblies are available in multiple circuit sizes and cable lengths, featuring a rugged strain relief for signal and power applications. For other cable assembly options, contact harness@molex.com.
+&lt;p&gt;Available configurations:
+&lt;ul&gt;
+&lt;li&gt;Wire to Wire
+&lt;li&gt;Wire to Board
+&lt;li&gt;BMI (blind mating interface) Wire to Wire Configuration
+&lt;li&gt;BMI (blind mating interface) Wire to Board Configuration
+&lt;li&gt;BMI (blind mating interface) Board to Board Configuration
+&lt;/ul&gt;
+
+&lt;author&gt;Created by divashin@gmail.com&lt;/author&gt;&lt;p&gt;
+&lt;p&gt;
+
+&lt;p&gt;Documentation: &lt;u&gt;http://www.molex.com/molex/common/staticLoader.jsp?fileName=/cmc_upload/0/000/0-8/368/full-matrix.html&amp;pageTitle=Micro-Fit,%203.0&amp;chanName=family&amp;frellink=Introduction&amp;familyOID=-8368&amp;channel=Products&amp;oid=-8368&lt;/u&gt;&lt;p&gt;</description>
+<packages>
+<package name="43045-0800">
+<description>Molex Micro-Fit 3.0 - Header Shrouded, Thru hole, Right Angle;  P/N: SD-43045-0800, SD-43045-0801, SD-43045-0802
+
+&lt;p&gt;&lt;a href ='http://www.molex.com/pdm_docs/sd/430450200_sd.pdf'&gt;http://www.molex.com/pdm_docs/sd/430450200_sd.pdf&lt;/a&gt;</description>
+<wire x1="7.825" y1="3.71" x2="7.825" y2="-2.4" width="0.254" layer="21"/>
+<wire x1="6" y1="-4.6" x2="-6" y2="-4.6" width="0.254" layer="21"/>
+<wire x1="-7.825" y1="-2.5" x2="-7.825" y2="3.71" width="0.254" layer="21"/>
+<wire x1="-4.83" y1="5.31" x2="-6.5" y2="5.31" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="5.31" x2="-8.08" y2="5.31" width="0.254" layer="21"/>
+<wire x1="-8.08" y1="5.31" x2="-8.08" y2="3.71" width="0.254" layer="21"/>
+<wire x1="-8.08" y1="3.71" x2="-7.825" y2="3.71" width="0.254" layer="21"/>
+<wire x1="-4.825" y1="5.31" x2="-6.5" y2="5.31" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="5.31" x2="6.5" y2="5.31" width="0.254" layer="21"/>
+<wire x1="6.5" y1="5.31" x2="8.08" y2="5.31" width="0.254" layer="21"/>
+<wire x1="8.08" y1="5.31" x2="8.08" y2="3.71" width="0.254" layer="21"/>
+<wire x1="8.08" y1="3.71" x2="7.825" y2="3.71" width="0.254" layer="21"/>
+<wire x1="-6.5" y1="5.31" x2="-6.5" y2="3.5" width="0.254" layer="21"/>
+<wire x1="-6.5" y1="3.5" x2="6.5" y2="3.5" width="0.254" layer="21"/>
+<wire x1="6.5" y1="3.5" x2="6.5" y2="5.31" width="0.254" layer="21"/>
+<wire x1="-7.825" y1="-2.5" x2="-6" y2="-4.6" width="0.254" layer="21"/>
+<wire x1="7.825" y1="-2.4" x2="6" y2="-4.6" width="0.254" layer="21"/>
+<wire x1="-0.6" y1="-2.4" x2="0.6" y2="-2.4" width="0.254" layer="21"/>
+<wire x1="0.6" y1="-2.4" x2="0.6" y2="-3" width="0.254" layer="21"/>
+<wire x1="0.6" y1="-3" x2="0.6" y2="-4" width="0.254" layer="21"/>
+<wire x1="0.6" y1="-4" x2="-0.6" y2="-4" width="0.254" layer="21"/>
+<wire x1="-0.6" y1="-4" x2="-0.6" y2="-3" width="0.254" layer="21"/>
+<wire x1="-0.6" y1="-3" x2="-0.6" y2="-2.4" width="0.254" layer="21"/>
+<wire x1="-0.6" y1="-3" x2="0.6" y2="-3" width="0.254" layer="21"/>
+<pad name="P$2" x="1.5" y="4.32" drill="1.02"/>
+<pad name="P$6" x="1.5" y="7.32" drill="1.02"/>
+<pad name="P$3" x="-1.5" y="4.32" drill="1.02"/>
+<pad name="P$7" x="-1.5" y="7.32" drill="1.02"/>
+<pad name="P$1" x="4.5" y="4.32" drill="1.02" shape="square"/>
+<pad name="P$4" x="-4.5" y="4.32" drill="1.02"/>
+<pad name="P$5" x="4.5" y="7.32" drill="1.02"/>
+<pad name="P$8" x="-4.5" y="7.32" drill="1.02"/>
+<hole x="2.35" y="0" drill="3"/>
+<hole x="-2.35" y="0" drill="3"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2116,6 +2201,19 @@ design rules under a new name.</description>
 <element name="STEPPER-CTRL-X1" library="con-phoenix-508" package="MSTBA6" value="MSTBA6" x="-13.97" y="-182.88"/>
 <element name="STEPPER-CTRL-Y" library="con-phoenix-508" package="MSTBA6" value="MSTBA6" x="-13.97" y="-198.12"/>
 <element name="STEPPER-CTRL-Z" library="con-phoenix-508" package="MSTBA6" value="MSTBA6" x="-13.97" y="-213.36"/>
+<element name="U$1" library="net173" package="DIL4-SMD" value="LTV817LTV817S" x="-35.56" y="-212.09"/>
+<element name="U$2" library="net173" package="DIL4-SMD" value="LTV817LTV817S" x="-44.45" y="-212.09"/>
+<element name="U$3" library="net173" package="DIL4-SMD" value="LTV817LTV817S" x="-53.34" y="-212.09"/>
+<element name="U$4" library="net173" package="DIL4-SMD" value="LTV817LTV817S" x="-62.23" y="-212.09"/>
+<element name="R2" library="rcl" package="M1206" value="" x="-63.5" y="-222.25"/>
+<element name="R3" library="rcl" package="M1206" value="" x="-63.5" y="-227.33"/>
+<element name="R4" library="rcl" package="M1206" value="" x="-63.5" y="-232.41"/>
+<element name="R5" library="rcl" package="M1206" value="" x="-63.5" y="-237.49"/>
+<element name="LED1" library="led" package="CHIPLED_1206" value="" x="-69.85" y="-236.22"/>
+<element name="LED2" library="led" package="CHIPLED_1206" value="" x="-76.2" y="-236.22"/>
+<element name="LED3" library="led" package="CHIPLED_1206" value="" x="-82.55" y="-236.22"/>
+<element name="LED4" library="led" package="CHIPLED_1206" value="" x="-88.9" y="-236.22"/>
+<element name="X1" library="con-molex-micro-fit-3_0" package="43045-0800" value="" x="-82.55" y="-247.65"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2137,6 +2235,14 @@ design rules under a new name.</description>
 <contactref element="U1.Z" pad="2"/>
 <contactref element="U1.Z" pad="3"/>
 <contactref element="U2.Z" pad="3"/>
+<contactref element="U$1" pad="2"/>
+<contactref element="U$4" pad="2"/>
+<contactref element="U$3" pad="2"/>
+<contactref element="U$2" pad="2"/>
+<wire x1="-43.18" y1="-216.86" x2="-34.29" y2="-216.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.07" y1="-216.86" x2="-43.18" y2="-216.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.96" y1="-216.86" x2="-52.07" y2="-216.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.86" y1="-149.86" x2="-34.29" y2="-216.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.24" y1="-149.86" x2="-22.86" y2="-149.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.51" y1="-135.58" x2="-15.24" y2="-149.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-25.4" y1="-135.58" x2="-16.51" y2="-135.58" width="0" layer="19" extent="1-1"/>
@@ -2192,8 +2298,16 @@ design rules under a new name.</description>
 <contactref element="R3.X" pad="2"/>
 <contactref element="R3.Y" pad="2"/>
 <contactref element="R3.Z" pad="2"/>
+<contactref element="X1" pad="P$1"/>
+<contactref element="X1" pad="P$3"/>
+<contactref element="X1" pad="P$5"/>
+<contactref element="X1" pad="P$7"/>
 <wire x1="-10.48" y1="-106.68" x2="-10.48" y2="-139.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.29" y1="-82.55" x2="-10.48" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.05" y1="-240.33" x2="-10.48" y2="-139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.05" y1="-243.33" x2="-78.05" y2="-240.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-84.05" y1="-243.33" x2="-78.05" y2="-243.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-84.05" y1="-240.33" x2="-84.05" y2="-243.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="JP.MEGA2560.POWER" pad="1"/>
@@ -2535,6 +2649,66 @@ design rules under a new name.</description>
 <contactref element="U1.Z" pad="1"/>
 <contactref element="LED1.Z" pad="C"/>
 <wire x1="-10.16" y1="-124.68" x2="-27.94" y2="-135.58" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="X1" pad="P$8"/>
+<contactref element="LED2" pad="A"/>
+<wire x1="-76.2" y1="-237.97" x2="-87.05" y2="-240.33" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="X1" pad="P$6"/>
+<contactref element="LED1" pad="A"/>
+<wire x1="-69.85" y1="-237.97" x2="-81.05" y2="-240.33" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="X1" pad="P$4"/>
+<contactref element="LED3" pad="A"/>
+<wire x1="-82.55" y1="-237.97" x2="-87.05" y2="-243.33" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$22">
+<contactref element="LED2" pad="C"/>
+<contactref element="R4" pad="1"/>
+<wire x1="-64.9" y1="-232.41" x2="-76.2" y2="-234.47" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$23">
+<contactref element="R4" pad="2"/>
+<contactref element="U$1" pad="1"/>
+<wire x1="-62.1" y1="-232.41" x2="-36.83" y2="-216.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$24">
+<contactref element="R5" pad="2"/>
+<contactref element="U$2" pad="1"/>
+<wire x1="-45.72" y1="-216.86" x2="-62.1" y2="-237.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$30">
+<contactref element="LED1" pad="C"/>
+<contactref element="R5" pad="1"/>
+<wire x1="-64.9" y1="-237.49" x2="-69.85" y2="-234.47" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$31">
+<contactref element="LED4" pad="A"/>
+<contactref element="X1" pad="P$2"/>
+<wire x1="-81.05" y1="-243.33" x2="-88.9" y2="-237.97" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$32">
+<contactref element="LED3" pad="C"/>
+<contactref element="R3" pad="1"/>
+<wire x1="-64.9" y1="-227.33" x2="-82.55" y2="-234.47" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$33">
+<contactref element="LED4" pad="C"/>
+<contactref element="R2" pad="1"/>
+<wire x1="-64.9" y1="-222.25" x2="-88.9" y2="-234.47" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$34">
+<contactref element="R2" pad="2"/>
+<contactref element="U$4" pad="1"/>
+<wire x1="-63.5" y1="-216.86" x2="-62.1" y2="-222.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$35">
+<contactref element="R3" pad="2"/>
+<contactref element="U$3" pad="1"/>
+<wire x1="-54.61" y1="-216.86" x2="-62.1" y2="-227.33" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
