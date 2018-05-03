@@ -7,15 +7,11 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="D:/Program Files (x86)/EAGLE-6.6.0/lbr/led.lbr"
-UsedLibrary="D:/Program Files (x86)/EAGLE-6.6.0/lbr/optocoupler.lbr"
-UsedLibrary="D:/Program Files (x86)/EAGLE-6.6.0/lbr/pinhead.lbr"
-UsedLibrary="D:/Program Files (x86)/EAGLE-6.6.0/lbr/rcl.lbr"
-UsedLibrary="D:/Program Files (x86)/EAGLE-6.6.0/lbr/supply1.lbr"
-UsedLibrary="D:/Program Files (x86)/EAGLE-6.6.0/lbr/switch-dil.lbr"
-UsedLibrary="E:/WORKSPACE/!LIB/EAGLE.CAD/LBR/_hhn_78xx_79xx_NCV78xx_d2pak_dpak.lbr"
-UsedLibrary="E:/WORKSPACE/!LIB/EAGLE.CAD/LBR/con-molex-micro-fit-3_0.lbr"
+UsedLibrary="D:/DEVEL/EAGLE/lbr/led.lbr"
+UsedLibrary="D:/DEVEL/EAGLE/lbr/rcl.lbr"
+UsedLibrary="D:/DEVEL/EAGLE/lbr/supply1.lbr"
 UsedLibrary="E:/WORKSPACE/!GITHUB/CNC/EAGLE/!LIB/con-phoenix-508.lbr"
+UsedLibrary="E:/WORKSPACE/!GITHUB/CNC/EAGLE/!LIB/con-molex-micro-fit-3_0.lbr"
 
 [Win_1]
 Type="Control Panel"
@@ -24,5 +20,5 @@ State=1
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="1600 900"
 Window="Win_1"
