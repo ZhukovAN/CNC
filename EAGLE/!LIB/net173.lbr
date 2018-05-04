@@ -90,6 +90,22 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <rectangle x1="0.65" y1="3.2" x2="1.875" y2="5.15" layer="51" rot="R180"/>
 <rectangle x1="-1.89" y1="3.2" x2="-0.665" y2="5.15" layer="51" rot="R180"/>
 </package>
+<package name="TSP-05">
+<wire x1="-17" y1="-10.1" x2="-17" y2="10.1" width="0.127" layer="21"/>
+<wire x1="-17" y1="10.1" x2="17" y2="10.1" width="0.127" layer="21"/>
+<wire x1="17" y1="10.1" x2="17" y2="-10.1" width="0.127" layer="21"/>
+<wire x1="17" y1="-10.1" x2="-17" y2="-10.1" width="0.127" layer="21"/>
+<pad name="P$1" x="-14.7" y="2.5" drill="0.8" diameter="2.54" shape="long"/>
+<pad name="P$2" x="-14.7" y="-2.5" drill="0.8" diameter="2.54" shape="long"/>
+<pad name="P$3" x="14.7" y="7.7" drill="0.8" diameter="2.54" shape="long"/>
+<pad name="P$4" x="14.7" y="-7.7" drill="0.8" diameter="2.54" shape="long"/>
+<wire x1="-19.05" y1="11.43" x2="19.05" y2="11.43" width="0.127" layer="39"/>
+<wire x1="19.05" y1="11.43" x2="19.05" y2="-11.43" width="0.127" layer="39"/>
+<wire x1="19.05" y1="-11.43" x2="-19.05" y2="-11.43" width="0.127" layer="39"/>
+<wire x1="-19.05" y1="-11.43" x2="-19.05" y2="11.43" width="0.127" layer="39"/>
+<text x="-19.05" y="15.24" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-19.05" y="12.7" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="OK">
@@ -132,6 +148,18 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <pin name="EMIT" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="COL" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="TSP-05">
+<wire x1="-17.78" y1="12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
+<pin name="AC1" x="-22.86" y="5.08" visible="pin" length="middle" direction="pwr"/>
+<pin name="AC2" x="-22.86" y="-5.08" visible="pin" length="middle" direction="pwr"/>
+<pin name="VOUT-" x="22.86" y="7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VOUT+" x="22.86" y="-7.62" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<text x="-17.78" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-17.78" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LTV817">
@@ -145,6 +173,24 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <connect gate="G$1" pin="C" pad="2"/>
 <connect gate="G$1" pin="COL" pad="4"/>
 <connect gate="G$1" pin="EMIT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSP-05" prefix="U">
+<gates>
+<gate name="G$1" symbol="TSP-05" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TSP-05" package="TSP-05">
+<connects>
+<connect gate="G$1" pin="AC1" pad="P$1"/>
+<connect gate="G$1" pin="AC2" pad="P$2"/>
+<connect gate="G$1" pin="VOUT+" pad="P$4"/>
+<connect gate="G$1" pin="VOUT-" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
