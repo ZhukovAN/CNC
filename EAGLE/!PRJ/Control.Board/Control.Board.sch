@@ -12122,7 +12122,8 @@ CTR(PC817, 20 ma) = 125%
 <net name="N$37" class="0">
 <segment>
 <pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="58.42" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="MIST" gate="G$1" pin="A"/>
+<wire x1="58.42" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
