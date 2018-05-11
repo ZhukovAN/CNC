@@ -12042,18 +12042,18 @@ CTR(PC817, 20 ma) = 125%
 <segment>
 <pinref part="FLOOD" gate="G$1" pin="EMIT"/>
 <wire x1="86.36" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="68.58" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="COOLANT.JP" gate="A" pin="2"/>
-<wire x1="91.44" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="COOLANT.JP" gate="A" pin="1"/>
+<wire x1="91.44" y1="68.58" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="MIST" gate="G$1" pin="EMIT"/>
 <wire x1="86.36" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="40.64" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="COOLANT.JP" gate="A" pin="4"/>
-<wire x1="96.52" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="COOLANT.JP" gate="A" pin="3"/>
+<wire x1="96.52" y1="40.64" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MEGA2560.GND" class="0">
@@ -12068,20 +12068,13 @@ CTR(PC817, 20 ma) = 125%
 <junction x="63.5" y="40.64"/>
 </segment>
 </net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="FLOOD" gate="G$1" pin="COL"/>
-<pinref part="COOLANT.JP" gate="A" pin="1"/>
-<wire x1="86.36" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="COOLANT.JP" gate="A" pin="3"/>
-<wire x1="109.22" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="68.58" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="MIST" gate="G$1" pin="COL"/>
 <wire x1="93.98" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="COOLANT.JP" gate="A" pin="4"/>
+<wire x1="93.98" y1="45.72" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MEGA2560.D8.COOLANT.FLOOD" class="0">
@@ -12124,6 +12117,14 @@ CTR(PC817, 20 ma) = 125%
 <pinref part="LED6" gate="G$1" pin="C"/>
 <pinref part="MIST" gate="G$1" pin="A"/>
 <wire x1="58.42" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="FLOOD" gate="G$1" pin="COL"/>
+<pinref part="COOLANT.JP" gate="A" pin="2"/>
+<wire x1="86.36" y1="73.66" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
