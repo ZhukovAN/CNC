@@ -39,7 +39,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=PCB.PcbDoc
+DocumentPath=con-phoenix-508.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -53,10 +53,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ANLPNBYI
+DocumentUniqueId=VNFMYYWD
 
 [Document2]
-DocumentPath=Sheet.02.Arduino.Mega2560.SchDoc
+DocumentPath=con-phoenix-508.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -70,7 +70,15 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KWCAFMFU
+DocumentUniqueId=VOTFAJLJ
+
+[GeneratedDocument1]
+DocumentPath=con-phoenix-508.IntLib
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=con-phoenix-508.LOG
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -141,7 +149,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Virtual Printer
+TargetPrinter=HP Color LaserJet Pro M252 PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembler Source Print
 OutputName1=Assembler Source Prints
@@ -913,30 +921,6 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Net173.IntLib
-ComponentDesignItemID0=HDR10
-ComponentSymbolReference0=HDR10
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Net173.IntLib
-ComponentDesignItemID1=HDR2X18
-ComponentSymbolReference1=HDR2X18
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=Net173.IntLib
-ComponentDesignItemID2=HDR8
-ComponentSymbolReference2=HDR8
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=Net173.IntLib
-ComponentDesignItemID3=PC817
-ComponentSymbolReference3=PC817
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -950,37 +934,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
-ParameterUpdate0=1
-ParameterName1=Component Kind
-ParameterUpdate1=1
-ParameterName2=Description
-ParameterUpdate2=1
-ParameterName3=Library Reference
-ParameterUpdate3=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=DIP4-SMD
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=HDR10
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=HDR10-BOTTOM
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=HDR2X18
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=HDR2X18-BOTTOM
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=HDR8
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=HDR8-BOTTOM
-ModelUpdate6=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -994,7 +947,4 @@ ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Co
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-
-[SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
