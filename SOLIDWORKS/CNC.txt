@@ -1,3 +1,3 @@
 ﻿"SBR16.Length.X"= 600мм
-"SBR16.Length.Y"= 450мм
+"SBR16.Length.Y"= 500мм
 "SBR16.Length.Z"= 250мм
