@@ -48,3 +48,17 @@ EAGLE/Power\.Board/Power\.Board\.pdf
 *.l#2
 
 *.epf
+
+ALTIUM/Net173/History/
+
+ALTIUM/Net173/__Previews/
+
+*.ERR
+
+ALTIUM/Control\.Board/__Previews/
+
+ALTIUM/Control\.Board/History/
+
+ALTIUM/Control\.Board/Project Logs for Control\.Board/
+
+*.l##
