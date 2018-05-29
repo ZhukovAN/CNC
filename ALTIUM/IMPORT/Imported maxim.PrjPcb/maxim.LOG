@@ -1,0 +1,13 @@
+Importer Log Report
+Project : maxim.PrjPcb
+
+Section : Analyze Document - D:\DEVEL\EAGLE\lbr\maxim.lbr
+    Analyzing data of D:\DEVEL\EAGLE\lbr\maxim.lbr
+    Load settings
+    Load layers 59
+    Load Library library
+    Load Library ""
+    Load Packages 63
+    Load Symbols 363
+    Load DeviceSets 446
+EndSection
